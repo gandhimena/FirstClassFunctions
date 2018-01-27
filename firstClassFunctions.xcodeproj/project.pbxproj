@@ -12,6 +12,8 @@
 		983D1DD51FDE607400BE6615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D1DD31FDE607400BE6615 /* Main.storyboard */; };
 		983D1DD71FDE607400BE6615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983D1DD61FDE607400BE6615 /* Assets.xcassets */; };
 		983D1DDA1FDE607400BE6615 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983D1DD81FDE607400BE6615 /* LaunchScreen.storyboard */; };
+		989B374C1FDF6CB200BB497A /* parserImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B374B1FDF6CB200BB497A /* parserImageViewController.swift */; };
+		989B374E1FDF824600BB497A /* AlfredoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B374D1FDF824600BB497A /* AlfredoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		983D1DD61FDE607400BE6615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983D1DD91FDE607400BE6615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983D1DDB1FDE607400BE6615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		989B374B1FDF6CB200BB497A /* parserImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parserImageViewController.swift; sourceTree = "<group>"; };
+		989B374D1FDF824600BB497A /* AlfredoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlfredoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				983D1DCF1FDE607400BE6615 /* AppDelegate.swift */,
 				983D1DD11FDE607400BE6615 /* ViewController.swift */,
+				989B374D1FDF824600BB497A /* AlfredoViewController.swift */,
+				989B374B1FDF6CB200BB497A /* parserImageViewController.swift */,
 				983D1DD31FDE607400BE6615 /* Main.storyboard */,
 				983D1DD61FDE607400BE6615 /* Assets.xcassets */,
 				983D1DD81FDE607400BE6615 /* LaunchScreen.storyboard */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989B374C1FDF6CB200BB497A /* parserImageViewController.swift in Sources */,
 				983D1DD21FDE607400BE6615 /* ViewController.swift in Sources */,
+				989B374E1FDF824600BB497A /* AlfredoViewController.swift in Sources */,
 				983D1DD01FDE607400BE6615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
